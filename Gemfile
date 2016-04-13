@@ -14,6 +14,8 @@ gem 'rails_12factor', group: :production
 gem 'bootstrap-sass'
 # add stripe payment gem
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+# Added Figaro for securely handling credentials 
+gem 'figaro'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

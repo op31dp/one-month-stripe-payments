@@ -18,6 +18,10 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 gem 'figaro'
 # open email local
 gem 'letter_opener', group: :development
+#Add automated admin system
+gem 'activeadmin', github: 'gregbell/active_admin'
+#added devise to support login
+  gem 'devise'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

@@ -1,6 +1,4 @@
 
-<p>Thanks!</p>
+<p>Thanks for buying!</p>
 
-Thanks for buying our ebook!
-
-<%= link_to "Download your ebook", "https://s3.amazonaws.com/one-month-stripe-payments-dp/DetailedAcademicIncubatorInformationYear2015-2016.pdf" %>
+<a href="<%= @product.download_url %>"><button type="button" class="btn btn-success btn-xs">DOWNLOAD</button></a>

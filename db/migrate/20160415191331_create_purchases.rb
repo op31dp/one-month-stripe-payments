@@ -11,4 +11,4 @@ class CreatePurchases < ActiveRecord::Migration
 		t.timestamps 
     end
   end
-
+end
